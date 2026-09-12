@@ -1,0 +1,16 @@
+alpha:
+  n_alphas: 50
+  max_depth: 3
+  windows: [5, 10, 20, 60]
+
+indicators:
+  rsi_period: 14
+
+selection:
+  max_correlation: 0.85
+  top_k: 20
+
+training:
+  test_size: 0.33
+  random_state: 42
+  target_col: "OC"

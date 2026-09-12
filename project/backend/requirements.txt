@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pandas
+numpy
+polars
+scipy
+scikit-learn
+statsmodels
+lightgbm
+joblib
+yfinance
+pyarrow
+pyyaml
+mlflow
+MetaTrader5
+pytz

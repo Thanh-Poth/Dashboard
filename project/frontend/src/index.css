@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CORRECTION : App.jsx utilise la classe "blob-gpu" sur un <div> décoratif
+   en fond d'écran, mais cette classe n'était définie dans aucun des fichiers
+   fournis. Ajoutée ici avec un rendu simple (dégradé flouté animé) — à
+   ajuster librement selon le style que tu voulais à l'origine. */
+.blob-gpu {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle at center, rgba(139, 92, 246, 0.35), transparent 70%);
+  filter: blur(80px);
+  will-change: transform;
+  z-index: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+}
