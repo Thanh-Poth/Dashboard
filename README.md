@@ -8,13 +8,13 @@
 
 ---
 
-## TL;DR for recruiters
+## Project Overview
 
 | | |
 |---|---|
 | **Problem** | Quant research usually lives in scattered notebooks. It is hard to re-run, compare and present. |
 | **Solution** | One application that chains the whole workflow behind an API and a UI: data -> features -> alphas -> selection -> model -> backtest. |
-| **Skills shown** | Full-stack development (Python API + React), applied machine learning on financial data, quantitative research workflow, system design. |
+| **Skills** | Full-stack development (Python API + React), applied machine learning on financial data, quantitative research workflow, system design. |
 
 ---
 
@@ -57,7 +57,6 @@ project/        Application source (backend + frontend)
 saved_model/1   Serialized trained model
 ```
 
-<!-- VERIFY: expand the tree once the folder structure inside project/ is confirmed. -->
 
 ---
 
@@ -82,7 +81,7 @@ The risk and portfolio layer (risk parity, Kelly sizing, VaR budgeting, causal w
 
 ---
 
-## Skills demonstrated
+## Skills 
 
 **Full-stack**: FastAPI, REST/JSON, React components and state, API-to-UI integration
 **Data / ML**: financial data collection, feature engineering, alpha selection, model optimization, backtesting
